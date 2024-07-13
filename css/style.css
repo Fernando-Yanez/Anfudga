@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 /*! GRID HEADER*/
+nav {z-index: 2;}
 .grid-header {
     width: 100%;
     height: 250px;
@@ -67,6 +68,8 @@
 .grid-header__login p:hover{ background-color: grey;}
 
 .grid-header__nav{ grid-area: nav;    }
+
+
 
 /*!GRID FOOTER*/
 .grid-footer{
