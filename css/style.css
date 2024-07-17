@@ -69,8 +69,6 @@ nav {z-index: 2;}
 
 .grid-header__nav{ grid-area: nav;    }
 
-
-
 /*!GRID FOOTER*/
 .grid-footer{
     width: 100%;
