@@ -1,0 +1,32 @@
+.grid-footer{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
+    grid-template-rows: 0.45fr 1fr 0.45fr;
+    grid-template-areas:
+    ". datCont . . . ."
+    ". datCont direccion horarios rrss ."
+    ". . . . . ."
+    ;
+    gap: 5px;
+    
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: banaNova;
+}
+
+.grid-footer__datCont{
+    grid-area: datCont;
+}
+.grid-footer__direccion{
+    grid-area: direccion;
+}
+.grid-footer__horario{
+    grid-area: horarios;
+}
+.grid-footer__rrss{
+    grid-area: rrss;
+}

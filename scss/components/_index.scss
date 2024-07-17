@@ -1,0 +1,52 @@
+
+/*!---INDEX---*/
+.carrusel{
+    margin: 15px 0 15px 0;
+}
+.grid-main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    ". not1 not2 not3 not4 ."
+    ". icons icons icons icons.";
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.grid-main__not1{
+    grid-area: not1;
+    
+    
+}
+.grid-main__not2{
+    grid-area: not2;
+}
+.grid-main__not3{
+    grid-area: not3;
+}
+.grid-main__not4{
+    grid-area: not4;
+}
+.grid-main__iconos{
+    grid-area: icons;
+    grid-column: 2/6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid-main {
+    img{width: 300px;
+        height: 300px;
+        }
+    
+}
+
+.grid-main__iconos{
+    img{
+    width: 100px;
+    height: 100px;
+    }
+}
