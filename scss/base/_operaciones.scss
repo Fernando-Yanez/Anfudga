@@ -1,0 +1,54 @@
+%grid-pag-regiones{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.3fr repeat(6, 1fr) 0.3fr;
+    grid-template-rows: 50px 50px 1fr;
+    grid-template-areas:
+    ". region region . . . . ."
+    ". Tpres . Tsecr . Tteso . ."
+    ". Ipres Ppres Isecr Psecr Iteso Pteso ." ;
+    gap:10px;
+
+    margin: 75px 0 50px 0;
+    
+    img{
+        width: 250px;
+        height: 250px;
+        display: flex;
+        margin: 0 auto;
+    }
+    h4{ text-align: center;}
+
+}
+
+%grid-regiones__item-titulo{
+    grid-area: region;
+}
+%grid-regiones__item-presidente{
+    grid-area: Tpres;
+}
+%grid-regiones__item-presidente-img{
+    grid-area: Ipres;
+}
+%grid-regiones__item-presidente-txt{
+    grid-area: Ppres;
+}
+%grid-regiones__item-secretario{
+    grid-area: Tsecr;
+}
+%grid-regiones__item-secretario-img{
+    grid-area: Isecr;
+}
+%grid-regiones__item-secretario-txt{
+    grid-area: Psecr;
+}
+%grid-regiones__item-tesorero{
+    grid-area: Tteso;
+}
+%grid-regiones__item-tesorero-img{
+    grid-area: Iteso;
+}
+%grid-regiones__item-tesorero-txt{
+    grid-area: Pteso;
+}

@@ -1,0 +1,130 @@
+.grid-arica-parinacota{
+    @extend %grid-pag-regiones;
+}
+
+.grid-arica-parinacota__tituloH3{
+    @extend %grid-regiones__item-titulo;
+}
+
+.grid-arica-parinacota__titulo-presidente{
+    @extend %grid-regiones__item-presidente;
+}
+
+.grid-arica-parinacota__img-presidente{
+    @extend %grid-regiones__item-presidente-img;
+}
+.grid-arica-parinacota__parrafo-presidente{
+    @extend %grid-regiones__item-presidente-txt;
+}
+
+//-------------
+.grid-arica-parinacota__titulo-secretario{
+    @extend %grid-regiones__item-secretario;
+}
+
+.grid-arica-parinacota__img-secretario{
+    @extend %grid-regiones__item-secretario-img;
+}
+.grid-arica-parinacota__parrafo-secretario{
+    @extend %grid-regiones__item-secretario-txt;
+}
+//------------
+.grid-arica-parinacota__titulo-tesorero{
+    @extend %grid-regiones__item-tesorero;
+}
+
+.grid-arica-parinacota__img-tesorero{
+    @extend %grid-regiones__item-tesorero-img;
+}
+.grid-arica-parinacota__parrafo-tesorero{
+    @extend %grid-regiones__item-tesorero-txt;
+}
+
+
+/*!grid TARAPACA */
+
+.grid-tarapaca{
+    @extend %grid-pag-regiones;
+}
+
+.grid-tarapaca__tituloH3{
+    @extend %grid-regiones__item-titulo;
+}
+
+.grid-tarapaca__titulo-presidente{
+    @extend %grid-regiones__item-presidente;
+}
+
+.grid-tarapaca__img-presidente{
+    @extend %grid-regiones__item-presidente-img;
+}
+.grid-tarapaca__parrafo-presidente{
+    @extend %grid-regiones__item-presidente-txt;
+}
+
+//-------------
+.grid-tarapaca__titulo-secretario{
+    @extend %grid-regiones__item-secretario;
+}
+
+.grid-tarapaca__img-secretario{
+    @extend %grid-regiones__item-secretario-img;
+}
+.grid-tarapaca__parrafo-secretario{
+    @extend %grid-regiones__item-secretario-txt;
+}
+//------------
+.grid-tarapaca__titulo-tesorero{
+    @extend %grid-regiones__item-tesorero;
+}
+
+.grid-tarapaca__img-tesorero{
+    @extend %grid-regiones__item-tesorero-img;
+}
+.grid-tarapaca__parrafo-tesorero{
+    @extend %grid-regiones__item-tesorero-txt;
+}
+
+/*!grid ANTOFAGASTA*/
+
+.grid-antofagasta{
+    @extend %grid-pag-regiones;
+}
+
+.grid-antofagasta__tituloH3{
+    @extend %grid-regiones__item-titulo;
+}
+
+.grid-antofagasta__titulo-presidente{
+    @extend %grid-regiones__item-presidente;
+}
+
+.grid-antofagasta__img-presidente{
+    @extend %grid-regiones__item-presidente-img;
+}
+.grid-antofagasta__parrafo-presidente{
+    @extend %grid-regiones__item-presidente-txt;
+}
+
+//-------------
+.grid-antofagasta__titulo-secretario{
+    @extend %grid-regiones__item-secretario;
+}
+
+.grid-antofagasta__img-secretario{
+    @extend %grid-regiones__item-secretario-img;
+}
+.grid-antofagasta__parrafo-secretario{
+    @extend %grid-regiones__item-secretario-txt;
+}
+//------------
+.grid-antofagasta__titulo-tesorero{
+    @extend %grid-regiones__item-tesorero;
+}
+
+.grid-antofagasta__img-tesorero{
+    @extend %grid-regiones__item-tesorero-img;
+}
+.grid-antofagasta__parrafo-tesorero{
+    @extend %grid-regiones__item-tesorero-txt;
+}

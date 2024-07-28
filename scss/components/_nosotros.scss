@@ -1,0 +1,120 @@
+.grid-mision-vision{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 25px auto 50px 25px auto;
+    grid-template-areas: 
+    ". Tmisi imgM . "
+    ". txtM imgM ."
+    " . . . . "
+    ". imgV Tvisi . "
+    ". imgV txtV .";
+    gap: 10px;
+
+    img{
+        width: 100%;
+        height: 300px;
+    }
+
+    margin: 35px 0 150px 0;
+}
+.grid-mision-vision__titulo-mision{
+    grid-area: Tmisi;
+    
+}
+.grid-mision-vision__txt-mision{
+    grid-area: txtM;
+}
+.grid-mision-vision__img-mision{
+    grid-area: imgM;
+    grid-row: 1/3;
+}
+
+.grid-mision-vision__titulo-vision{
+    grid-area: Tvisi;
+    
+    
+}
+.grid-mision-vision__txt-vision{
+    grid-area: txtV;
+}
+.grid-mision-vision__img-vision{
+    grid-area: imgV;
+    grid-row: 4/6;
+    
+}
+
+
+/*!GRID DIRECTIVA*/
+.grid-directiva
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.2fr repeat(4, 1fr) 0.2fr;
+    grid-template-rows: 50px 50px auto auto;
+    grid-template-areas:
+    ". titulo titulo titulo titulo ."
+    ". Tpres Tsecr Tteso Tsecra."
+    ". Ipres Isecr Iteso Isecra."
+    ". Ppres Psecr Pteso Psecra.";
+    gap: 10px;
+
+    margin: 0 0 100px 0;
+
+    img{ width: 150px;
+        height: 150px;
+        display: flex;
+        margin: 0 auto;
+    }
+    h3{
+        text-align: center;
+    }
+}
+
+.grid-directiva__titulo{
+    grid-area: titulo;
+    text-align: center;
+}
+
+.grid-directiva__presidente{
+    grid-area: Tpres;
+}
+
+.grid-directiva__presidente-img{
+    grid-area: Ipres;
+}
+.grid-directiva__presidente-txt{
+    grid-area: Ppres;
+}
+
+.grid-directiva__secretario{
+    grid-area: Tsecr;
+}
+.grid-directiva__secretario-img{
+    grid-area: Isecr;
+}
+.grid-directiva__secretario-txt{
+    grid-area: Psecr;
+}
+
+.grid-directiva__tesorero{
+    grid-area: Tteso;
+}
+.grid-directiva__tesorero-img{
+    grid-area: Iteso;
+}
+.grid-directiva__tesorero-txt{
+    grid-area: Pteso;
+}
+
+.grid-directiva__secretaria{
+    grid-area: Tsecra;
+}
+.grid-directiva__secretaria-img{
+    grid-area: Isecra;
+}
+.grid-directiva__secretaria-txt{
+    grid-area: Psecra;
+}
