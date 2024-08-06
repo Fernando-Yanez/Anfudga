@@ -112,6 +112,26 @@ header .grid-header__login {
 .grid-arica-parinacota__parrafo-tesorero, .grid-tarapaca__parrafo-tesorero, .grid-antofagasta__parrafo-tesorero {
   grid-area: Pteso; }
 
+/*!OPERACIONES NOTICIAS*/
+.grid-noticias-prim, .grid-noticias-Segu, .grid-noticias-Terc {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 0.2fr 1fr 0.5fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: ". titulo . . ." ". parrafo . imagen .";
+  gap: 10px;
+  margin: 15px 0 20px 0; }
+
+.grid-noticias-prim .item-noticias__Titulo, .grid-noticias-Segu .item-noticias__Titulo, .grid-noticias-Terc .item-noticias__Titulo {
+  grid-area: titulo; }
+
+.grid-noticias-prim .item-noticias__Parrafo, .grid-noticias-Segu .item-noticias__Parrafo, .grid-noticias-Terc .item-noticias__Parrafo {
+  grid-area: parrafo; }
+
+.grid-noticias-prim .item-noticias__Imagen, .grid-noticias-Segu .item-noticias__Imagen, .grid-noticias-Terc .item-noticias__Imagen {
+  grid-area: imagen; }
+
 /*!---INDEX---*/
 .carrusel {
   margin: 15px 0 15px 0; }
@@ -245,6 +265,67 @@ header .grid-header__login {
 
 /*!grid TARAPACA */
 /*!grid ANTOFAGASTA*/
+.main-noticias img {
+  width: 500px;
+  height: 300px; }
+
+.main-noticias h3 {
+  font-family: BonaNavy; }
+
+/*!INCORPORACIONES*/
+.grid-beneficios {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: ". titulo ." ". parrafo .";
+  gap: 10px;
+  margin: 30px 0 50px 0; }
+
+.grid-beneficios__Titulo {
+  grid-area: titulo;
+  font-family: bonaNavy; }
+
+.grid-beneficios__Informacion {
+  grid-area: parrafo; }
+
+.grid-incorporaciones {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50px 1fr auto;
+  grid-template-areas: ". titulo ." ". parrafo ." ". formulario .";
+  gap: 10px;
+  margin: 0 0 60px 0; }
+
+.grid-incorporaciones__Titulo {
+  grid-area: titulo;
+  font-family: bonaNavy; }
+
+.grid-incorporaciones__Parrafo {
+  grid-area: parrafo; }
+
+.grid-incorporaciones__Formulario {
+  grid-area: formulario;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin: 0 auto; }
+
+input[type="text"] {
+  width: 500px;
+  margin: 0 0 10px 0; }
+
+input[type="email"] {
+  width: 500px;
+  margin: 0 0 10px 0; }
+
+textarea {
+  width: 500px;
+  height: 300px; }
+
 .grid-footer {
   width: 100%;
   height: 150px;

@@ -52,3 +52,32 @@
 %grid-regiones__item-tesorero-txt{
     grid-area: Pteso;
 }
+
+/*!OPERACIONES NOTICIAS*/
+
+%grid-noticias{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 0.2fr 1fr 0.5fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: 
+    ". titulo . . ."
+    ". parrafo . imagen .";
+    gap: 10px;
+
+    margin: 15px 0 20px 0;
+}
+
+%item-noticias{
+    .item-noticias__Titulo{
+        grid-area: titulo;
+    }
+    .item-noticias__Parrafo{
+        grid-area: parrafo;
+    }
+
+    .item-noticias__Imagen{
+        grid-area: imagen;
+    }
+}

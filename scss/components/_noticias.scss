@@ -1,0 +1,24 @@
+.main-noticias{
+    img{
+        width: 500px;
+        height: 300px
+        }
+    h3{
+        font-family: BonaNavy
+    }
+}
+
+.grid-noticias-prim{
+    @extend %grid-noticias;
+    @extend %item-noticias;
+}
+
+.grid-noticias-Segu{
+    @extend %grid-noticias;
+    @extend %item-noticias;
+}
+
+.grid-noticias-Terc{
+    @extend %grid-noticias;
+    @extend %item-noticias;
+}
