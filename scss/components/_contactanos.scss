@@ -1,0 +1,27 @@
+.grid-contactanos{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px 80px auto;
+    grid-template-areas: 
+    ". titulo ."
+    ". parrafo ."
+    ". formulario .";
+
+    gap: 10px;
+
+    margin: 25px 0 25px 0;
+}
+
+.grid-contactanos__Titulo{
+    grid-area: titulo;
+}
+.grid-contactanos__Parrafo{
+    grid-area: parrafo;
+}
+.grid-contactanos__Formulario{
+    grid-area: formulario;
+    display: flex;
+    margin: 0 auto;
+}
